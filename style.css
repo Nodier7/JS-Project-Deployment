@@ -1,0 +1,149 @@
+/*Setting margin and padding to 0px*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 35%;
+    margin: auto;
+    background-color: lightblue;
+    
+}
+/*header's style settings*/
+#h1{
+    background-color: darkred;
+    text-align: center;
+    color: white;
+    font-size: 2vmin;
+}
+
+/*paragraphs styles */
+
+#instrp1{
+   margin-top: 15px; 
+   margin-bottom: 10px;
+}
+
+#instrp2{
+    margin-bottom: 20px;
+}
+
+.instructions{
+    text-align: center;
+   
+}
+
+/*working area styles*/
+.workarea{
+    background-color: aqua;
+    text-align: center;
+    height: 400px;
+    background-image: url("numGenimage.jpg");
+    /*width:500px;
+    display: flex;
+    position:;
+    margin-left:200px;*/
+    
+      
+}
+
+h2{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 4vmin;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#numGuessed{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#btn{
+  background-color: yellow; /* yellow */
+  border: none;
+  color: black;
+  /*padding: 20px;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vmin;
+  font-weight: bold;
+  /*margin: 4px 2px;*/
+  cursor: pointer;
+  border-radius: 30px;
+  width: 40%;
+  height: 50px;
+  padding:10px;
+
+}
+
+.label1{
+    color: white;
+    text-shadow: 2px 2px darkred;
+    font-size:large;
+    font-weight: bolder;
+}
+
+span{
+    color: white;
+    text-shadow: 2px 2px darkred;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#messagep5{
+    color: white;
+    background-color: darkred;
+    margin-bottom: 50px;
+    font-size: 3vmin;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    /*pointer-events: none;*/
+}
+
+/*For tablets and mobile phones*/
+
+@media only screen and (max-width: 768px) {
+   body{ 
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+   }
+
+   #numGuessed{
+    width: 70%;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+   }
+
+   #btn{
+
+    border: none;
+    color: black;
+    /*padding: 20px;*/
+    text-align: center;
+    font-size:2vmin;
+    font-weight: bold;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+    border-radius: 30px;
+    width: 40%;
+    height: 30px;
+    padding:10px;
+  
+  }
+
+}
